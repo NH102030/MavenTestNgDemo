@@ -1,4 +1,4 @@
-package org.example;
+package org.nina.TestNG;
 
 public class Calculator {
     private int total = 0;

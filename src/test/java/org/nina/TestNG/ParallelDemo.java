@@ -1,4 +1,4 @@
-package org.example;
+package org.nina.TestNG;
 
 import org.testng.annotations.Test;
 

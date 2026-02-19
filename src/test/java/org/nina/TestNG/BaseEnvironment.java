@@ -1,4 +1,6 @@
-package org.example;
+package org.nina.TestNG;
 
 public class BaseEnvironment {
+
+
 }
