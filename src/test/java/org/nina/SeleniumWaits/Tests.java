@@ -70,4 +70,5 @@ public class Tests {
         Assert.assertTrue(waitForVisibilityAndFind(driver, signOutIcon).isDisplayed(), "Sign out icon not found!");
         driver.quit();
     }
+// Sync check
 }
