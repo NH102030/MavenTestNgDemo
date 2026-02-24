@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e202d5c-7187-4731-9637-ccb7f3d207d0" name="Changes" comment="Add SeleniumWaits package and Tests file.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nina/SeleniumWaits/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nina/SeleniumWaits/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,39 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [test,-Dtest=TestNgDemo...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [test...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MavenTestNgDemo [test].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.ParallelDemo.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNgDemo.myFirstSeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNgDemo.myFirstTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNgDemo.validateAddition.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Tests.myFirstSmartTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Tests.myFirstSmartTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nina/IdeaProjects/Skillo/MavenTestNgDemo/src/test/java/org/nina&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.MavenTestNgDemo [clean].executor": "Run",
+    "Maven.MavenTestNgDemo [compile].executor": "Run",
+    "Maven.MavenTestNgDemo [install].executor": "Run",
+    "Maven.MavenTestNgDemo [test,-Dtest=TestNgDemo...].executor": "Run",
+    "Maven.MavenTestNgDemo [test...].executor": "Run",
+    "Maven.MavenTestNgDemo [test].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.ParallelDemo.executor": "Run",
+    "TestNG.Selenium.myFirstTest.executor": "Run",
+    "TestNG.SeleniumDemo.myFirstSeleniumTest.executor": "Run",
+    "TestNG.TestNgDemo.myFirstSeleniumTest.executor": "Run",
+    "TestNG.TestNgDemo.myFirstTest.executor": "Run",
+    "TestNG.TestNgDemo.validateAddition.executor": "Run",
+    "TestNG.Tests.executor": "Run",
+    "TestNG.Tests.myFirstSmartTest (1).executor": "Run",
+    "TestNG.Tests.myFirstSmartTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nina/IdeaProjects/Skillo/MavenTestNgDemo/src/test/java/org/nina",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nina\IdeaProjects\Skillo\MavenTestNgDemo\src\test\java\org\nina" />
@@ -97,18 +100,18 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tests.myFirstSmartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Tests.myFirstSmartTest">
+    <configuration name="SeleniumDemo.myFirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestNgDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.nina.SeleniumWaits.*" />
+          <option name="PATTERN" value="org.nina.SeleniumDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.nina.SeleniumWaits" />
-      <option name="MAIN_CLASS_NAME" value="org.nina.SeleniumWaits.Tests" />
-      <option name="METHOD_NAME" value="myFirstSmartTest" />
+      <option name="PACKAGE_NAME" value="org.nina.SeleniumDemo" />
+      <option name="MAIN_CLASS_NAME" value="org.nina.SeleniumDemo.SeleniumDemo" />
+      <option name="METHOD_NAME" value="myFirstSeleniumTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,9 +119,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium.myFirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNgDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nina.SeleniumDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nina.SeleniumDemo" />
+      <option name="MAIN_CLASS_NAME" value="org.nina.SeleniumDemo.Selenium" />
+      <option name="METHOD_NAME" value="myFirstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.myFirstSmartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestNgDemo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nina.SeleniumWaits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.nina.SeleniumWaits" />
+      <option name="MAIN_CLASS_NAME" value="org.nina.SeleniumWaits.Tests" />
+      <option name="METHOD_NAME" value="myFirstSmartTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Selenium.myFirstTest" />
+      <item itemvalue="TestNG.SeleniumDemo.myFirstSeleniumTest" />
+      <item itemvalue="TestNG.Tests.myFirstSmartTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Tests.myFirstSmartTest" />
+        <item itemvalue="TestNG.Selenium.myFirstTest" />
+        <item itemvalue="TestNG.SeleniumDemo.myFirstSeleniumTest" />
         <item itemvalue="TestNG.Tests.myFirstSmartTest" />
       </list>
     </recent_temporary>

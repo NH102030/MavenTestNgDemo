@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/nina/IdeaProjects/Skillo/MavenTestNgDemo/testng.xml">
-        <classes/>
+    <test verbose="2" preserve-order="true" name="C:/Users/nina/IdeaProjects/Skillo/MavenTestNgDemo">
+        <classes>
+            <class name="org.nina.SeleniumWaits.Tests">
+                <methods>
+                    <include name="myFirstSmartTest"/>
+                </methods>
+            </class>
+            <class name="org.nina.TestNG.ParallelDemo">
+                <methods>
+                    <include name="testMethod1"/>
+                    <include name="testMethod2"/>
+                </methods>
+            </class>
+            <class name="org.nina.TestNG.TestNgDemo">
+                <methods>
+                    <include name="validateAddition"/>
+                    <include name="validateResetFunction"/>
+                    <include name="validateWelcomeMessage"/>
+                    <include name="validateInventoryStatus"/>
+                    <include name="validateCartSize"/>
+                    <include name="validateEmailFormat"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>
